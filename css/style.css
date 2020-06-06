@@ -1,0 +1,262 @@
+/*   font-family: 'Lato', sans-serif;
+
+    font-family: 'Playfair Display', serif; */
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev .owl-next{
+    position: absolute;
+    top: 30%;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #787878;
+}
+
+.owl-theme .owl-nav [class="owl-"]:hover {
+    background-color: transparent;
+}
+
+
+body { 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+/* Button */
+    .btn-main{
+        width: 160px;
+        height: 50px;
+        background-color: #813030;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .btn-main:hover{
+    
+        background-color: #fff;
+        color: #813030;
+        border: 1px solid #813030;
+    }
+
+    .btn-secondary{
+        width: 160px;
+        height: 50px;
+        background-color: #fff;
+        color: #813030;
+        font-size: 20px;
+        border: 1px solid #813030;
+    }
+
+    .btn-secondary:hover{
+    
+        background-color: #813030;
+        color: #fff;
+    }
+
+/* end button */
+
+.navbar {
+    font-size: 16px;
+}
+
+.hello {
+    margin-top: 120px;
+}
+
+.user-pic {
+    margin-top: 50px;
+}
+
+.hello .p1 {
+    font-size: 30px;
+  
+}
+
+.hello .p2 {
+    font-size: 45px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.hello .p3 {
+    font-size: 35px;
+}
+
+.hello .p1,.p2,.p3{
+    line-height: 35px;
+}
+
+/* about us */
+.about-me{
+    margin-top: 50px;
+    background-color: #813030;
+    color: #dbdbdb;
+    font-size: 14px;
+    margin-bottom: -80px;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* Certificate */
+.certificate{
+    margin-top: 50px;
+    background-color: #813030;
+    color: #dbdbdb;
+}
+
+/* progress */
+.skill-progress {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    position: relative;
+    border: 1px solid #fff;
+  }
+
+  
+.skill-item {
+    margin-bottom: 24px;
+  }
+  .skill-item:nth-child(n) .skill-percent {
+    transition-delay: 0.3s;
+  }
+  .skill-item:nth-child(n+1) .skill-percent {
+    transition-delay: 0.45s;
+  }
+  .skill-item:nth-child(n+2) .skill-percent {
+    transition-delay: 0.6s;
+  }
+  .skill-item:nth-child(n+3) .skill-percent {
+    transition-delay: 0.75s;
+  }
+  .skill-item:nth-child(n+4) .skill-percent {
+    transition-delay: 0.9s;
+  }
+  .skill-title {
+    margin-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+  }
+  .skill-percent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    background-color: #fff;
+    height: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    max-width: calc(100% - 2px);
+    -webkit-transition: width 1.2s ease;
+    -moz-transition: width 1.2s ease;
+    -ms-transition: width 1.2s ease;
+    -o-transition: width 1.2s ease;
+    transition: width 1.2s ease;
+  }
+  .skill-arrow {
+    position: absolute;
+    left: 100%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 18px;
+    font-size: 14px;
+  }
+  .skill-arrow:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-top-color: #787878;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: -12px;
+  }
+
+
+  
+.portfolio-container {
+    margin-top: 100px;
+}
+
+
+
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    margin-right: 10px;
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.portfolio-menu ul li:hover {
+    border-bottom: 1px solid #171717;
+    color: #171717;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item h5 {
+    font-weight: 500;
+    color: #171717;
+}
+
+.portfolio-item p {
+    font-weight: 600;
+    color: #6D6D6D;
+    font-size: 18px;
+}
+
+
+.portfolio-menu li.active {
+    border-bottom: 1px solid #171717;
+    color: #171717;
+}
+
+
+
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img img{
+    
+    max-height: 500px;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 8px;
+    background-color: rgba(0, 0, 0, 0.774);
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.figure-img:hover a {
+    opacity: 2;
+}
